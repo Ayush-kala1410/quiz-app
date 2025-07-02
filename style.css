@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: url("https://cdn.pixabay.com/photo/2020/07/22/13/19/cricket-5428976_1280.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.start-screen, .quiz-container, .result-screen {
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 100px auto;
+  max-width: 600px;
+  border-radius: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.options button {
+  margin: 10px 0;
+  width: 80%;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cricket Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="start-screen" id="start-screen">
+    <h1>Welcome to the Cricket Quiz</h1>
+    <button onclick="startQuiz()">Start Quiz</button>
+  </div>
+
+  <div class="quiz-container" id="quiz-container" style="display:none;">
+    <h2 id="question">Question text</h2>
+    <div id="options" class="options"></div>
+    <button onclick="nextQuestion()">Next</button>
+  </div>
+
+  <div class="result-screen" id="result-screen" style="display:none;">
+    <h2>Your Score: <span id="score"></span>/10</h2>
+    <button onclick="location.reload()">Play Again</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
